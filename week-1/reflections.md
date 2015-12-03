@@ -74,3 +74,18 @@ help: this gives you information on your current shell and information about var
 
 
 ### 1.4 Forking and Cloning Reflection
+If you were going to write instructions for a new person on how to create a new repo, fork a repo, and clone a repo, what would they be? Why would you fork a repository as opposed to create a new one?
+
+To create a new repository, you first need to navigate to your GitHub.com profile.  Once there, find the "+" icon in the upper right-hand corner, between the bell icon and your profile icon.  Select the "+" icon and scroll down to "new repository", then select which individual or group account you would like to create the new repository in.  Depending on your use of the repository, you may want to make it private or change the license.
+
+To fork a repository, simply go to the repository page and find the fork icon in the upper right-hand corner, just below the "+" icon.  Select the fork icon and select which account you would like to fork the repository to.
+
+To clone a repository, copy the URL from the repository page.  Not the one listed in the browser header but just below the green line in the HTTPS text box.  Open your command line and navigate to your desktop or phase-0 folder, wherever you will be storing your phase-0 work.  Enter "git clone" and the pasted URL in the command line.  Then, navigate to the cloned repository and use "ls" to ensure that the clone's contents are identical to the original repository.
+
+Forking a repository allows you to make an identical copy and store it in a separate account.  This allows you to make changes to and experiment with the forked repository without altering the original.
+
+
+What struggles did you have setting up git and GitHub? What did you learn in the process?
+
+I didn't have any significant struggles in setting up git and GitHub, but it did help to reinforce the use and usefulness of certain command line commands as well as further illustrate the relationship and differences between git and GitHub.
+
