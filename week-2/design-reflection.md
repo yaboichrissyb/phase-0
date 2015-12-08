@@ -1,5 +1,8 @@
 ![Click Here](/week-2/imgs/site-map.png)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 91ed0fc0f90bcda675e23b3b0b7f3cccb28827f6
 What are the 6 Phases of Web Design?
 
 1. Information Gathering
