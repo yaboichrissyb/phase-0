@@ -98,8 +98,17 @@ It's important to know the generic formula but also the name and location of the
 
 -What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
 
-It was pretty difficult to get the site exactly as I wanted.  I always had to be careful of exactly what in the html file each selector corresponded to, so I knew what sections I was moving around.  I often made the mistake of moving a subsection of a section rather than the entire section at once.
+It was pretty difficult to get the site exactly as I wanted.  I always had to be careful of exactly what in the html file each selector corresponded to, so I knew what sections I was moving around.  I often made the mistake of moving a subsection of a section rather than the entire section at once.  For most of my positioning I made sure the larger sections were inline-blocks if they needed to be then checked the text alignment.  From here I could adjust height and width, use margins and padding, floats, and line-height.
+
 -What CSS did you use to modify the element style (like size, color, etc.)
+
+Besides borders, I really only modified the size, color, etc. of the text using the font, font-size, color, font-weight, and text-transform properties.
+
 -Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+
+I used ids primarily because HTML5 already comes with some useful default classes like header, footer, main, etc.  I didn't have to define any other classes and I think this helped keep my stylsheet relatively clean and simple.  Ids were useful enough for selecting groups of elements within sections and I used the parent > child selectors a couple times as well.
+
 -When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+I'm not entirely sure how to read the page source and how, if at all, it's different from looking at a simple html document, but it seemed like the real berkshire site didn't link to a stylesheet at all.  From what I can tell, they used internal formatting which may seem easier/more straigthforward at first, but makes it harder to make larger changes to the styling of the entire .html file, not to mention it makes the code a lot more difficult to read and generally sloppier looking.
 */
