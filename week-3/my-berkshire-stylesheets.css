@@ -1,0 +1,105 @@
+* {
+  color:#000080;
+  background-color:#ffffff;
+}
+a {
+  color:#800080;
+}
+a:visited {
+  color:#ff0000;
+}
+Header {
+   font-weight:bold;
+   text-align:center;
+   border-bottom: 1px solid gray;
+   padding-bottom: 15px;
+   font:#00080;
+}
+#one {
+  font-size:1.15em;
+  text-transform: uppercase;
+  }
+#B {
+  font-size:1.75em;
+  }
+#H {
+  font-size:1.75em;
+  }
+#Inc {
+  font-size:.75em;
+  text-transform:uppercase;
+  }
+#two-three {
+  font-size: .8em;
+}
+#four {
+  font-size: 1em;
+}
+main {
+  display:inline-block;
+}
+#wrap {
+  width:90%;
+  margin:0px  auto;
+  text-align:left;
+  margin-top:15px;
+}
+#wrap li {
+  margin-bottom: 25px;
+}
+main ul div span {
+  font-size:0.6em;
+}
+#left {
+  float:left;
+  width:45%;
+}
+#right {
+  float:right;
+  width:45%;
+}
+#advert {
+text-align: center;
+clear:both;
+line-height:40%;
+border-top: 1px solid gray;
+border-bottom: 1px solid gray;
+text-transform: uppercase;
+font-size: .6em;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+footer {
+   padding-top: 15px;
+   padding-bottom: 15px;
+   clear:both;
+   text-align:left;
+font-size: .8em;
+border-bottom: 1px solid gray;
+}
+#legal {
+   display:inline-block;
+   text-align:left;
+}
+#copyright {
+   display:inline-block;
+   text-align:left;
+   font-size:.6em;
+   line-height: 50%;
+}
+#copyright span {
+  font-weight:bold;
+  text-align: left;
+}
+/*
+-What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+It's important to know the generic formula but also the name and location of the stylesheet on your computer.
+
+-What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+It was pretty difficult to get the site exactly as I wanted.  I always had to be careful of exactly what in the html file each selector corresponded to, so I knew what sections I was moving around.  I often made the mistake of moving a subsection of a section rather than the entire section at once.
+-What CSS did you use to modify the element style (like size, color, etc.)
+-Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+-When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+*/
