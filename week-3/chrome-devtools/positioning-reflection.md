@@ -1,14 +1,21 @@
-<p>
-  ![one](/chrome-devtools/imgs/3.4-1.png)
- ![two](/chrome-devtools/imgs/3.4-2.png)
- ![three](/chrome-devtools/imgs/3.4-3.png)
-![four](/chrome-devtools/imgs/3.4-4.png)
-![5](/chrome-devtools/imgs/3.4-5.png)
- ![six](/chrome-devtools/imgs/3.4-6.png)
- ![seven](/chrome-devtools/imgs/3.4-7.png)
-![eight](/chrome-devtools/imgs/3.4-8.png)
- ![nine](/chrome-devtools/imgs/3.4-9.png)
-</p>
+
+<img src="/week-3/chrome-devtools/imgs/3.4-1.png"/>
+
+<img src="/week-3/chrome-devtools/imgs/3.4-2.png"/>
+
+<img src="/week-3/chrome-devtools/imgs/3.4-3.png"/>
+
+<img src="/week-3/chrome-devtools/imgs/3.4-4.png"/>
+
+<img src="/week-3/chrome-devtools/imgs/3.4-5.png"/>
+
+<img src="/week-3/chrome-devtools/imgs/3.4-6.png"/>
+
+<img src="/week-3/chrome-devtools/imgs/3.4-7.png"/>
+
+<img src="/week-3/chrome-devtools/imgs/3.4-8.png"/>
+
+<img src="/week-3/chrome-devtools/imgs/3.4-9.png"/>
 
 How can you use Chrome's DevTools inspector to help you format or position elements?
 
