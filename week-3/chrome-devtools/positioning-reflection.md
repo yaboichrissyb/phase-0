@@ -1,13 +1,13 @@
 <p>
-  ![1](/week-3/chrome-devtools/imgs/3.4-1.png)
- ![1](/week-3/chrome-devtools/imgs/3.4-2.png)
- ![1](/week-3/chrome-devtools/imgs/3.4-3.png)
-![1](/week-3/chrome-devtools/imgs/3.4-4.png)
-![1](/week-3/chrome-devtools/imgs/3.4-5.png)
- ![1](/week-3/chrome-devtools/imgs/3.4-6.png)
- ![1](/week-3/chrome-devtools/imgs/3.4-7.png)
-![1](/week-3/chrome-devtools/imgs/3.4-8.png)
- ![1](/week-3/chrome-devtools/imgs/3.4-9.png)
+  ![one](/chrome-devtools/imgs/3.4-1.png)
+ ![two](/chrome-devtools/imgs/3.4-2.png)
+ ![three](/chrome-devtools/imgs/3.4-3.png)
+![four](/chrome-devtools/imgs/3.4-4.png)
+![5](/chrome-devtools/imgs/3.4-5.png)
+ ![six](/chrome-devtools/imgs/3.4-6.png)
+ ![seven](/chrome-devtools/imgs/3.4-7.png)
+![eight](/chrome-devtools/imgs/3.4-8.png)
+ ![nine](/chrome-devtools/imgs/3.4-9.png)
 </p>
 
 How can you use Chrome's DevTools inspector to help you format or position elements?
