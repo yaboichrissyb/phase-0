@@ -1,6 +1,8 @@
 #links
 [Basic Math](https://github.com/yaboichrissyb/phase-0/blob/master/week-4/basic-math.rb)
+
 [Defining Variables](https://github.com/yaboichrissyb/phase-0/blob/master/week-4/defining-variables.rb)
+
 [Simple Strings](https://github.com/yaboichrissyb/phase-0/blob/master/week-4/simple-string.rb)
 
 ##Release 1
