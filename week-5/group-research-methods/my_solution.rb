@@ -51,11 +51,11 @@ end
 
 # Person 4
 def my_array_deletion_method!(source, thing_to_delete)
-  source.delete_if { |n| n.upcase.include?(thing_to_delete.upcase) }
+  source.delete_if { |a, b| a.upcase.include?(thing_to_delete.upcase) }
 end
 
 def my_hash_deletion_method!(source, thing_to_delete)
-  source.delete_if { |n| n.upcase.include?(thing_to_delete.upcase) }
+  source.delete_if { |k, v| k.upcase.include?(thing_to_delete.upcase) }
 end
 
 =begin
