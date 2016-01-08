@@ -67,3 +67,20 @@ def mode(array)
 end
 
 # 4. Reflection
+=begin
+Which data structure did you and your pair decide to implement and why?
+
+We decided to use a hash since we figured we would want a unique key and value to store each object from the array as well as a value to count how many times that object is seen in the array.
+
+Were you more successful breaking this problem down into implementable pseudocode than the last with a pair?
+
+Yeah, I think practice makes perfect and this was a bit of a more straightforward challenge.  Though, I do still struggle with how to describe certain steps without relying on code lingo.
+
+What issues/successes did you run into when translating your pseudocode to code?
+
+I was actually pleasantly surprised with how smoothly we translated the pseudocode into an initial solution.  I also think our initial solution was relatively streamlined, which made going back and refactoring more of a challenge.
+
+What methods did you use to iterate through the content? Did you find any good ones when you were refactoring? Were they difficult to implement?
+
+We used the .each method and pushed each object meeting the mode criterium in the initial solution.  When we went back and refactored we tried using the .inject method which we both found more confusing but were able to work through using an example.  After that we went back and read a bit on stackoverflow and I think we both got a better understanding that way.
+=end
