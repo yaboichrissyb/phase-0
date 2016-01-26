@@ -1,5 +1,5 @@
-<img src="/week-8/database-intro/Screenshot 2016-01-26 12.36.57.png.">
-<img src="/week-8/database-intro/Screenshot 2016-01-26 12.55.29.png.">
+<img src="../Screenshot 2016-01-26 12.36.57.png.">
+<img src="../Screenshot 2016-01-26 12.55.29.png.">
 
 1.  SELECT * FROM states;
 2.  SELECT * FROM regions;
