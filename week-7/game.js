@@ -306,7 +306,19 @@ console.log(toby)
 
 
 // Reflection
-//
+/*
+What was the most difficult part of this challenge?
+The most difficult part of this challenge for me was setting up parameters that allowed some degree of randomness for the key placement and ghost movement without making the game impossible to win or finish.
+
+What did you learn about creating objects and functions that interact with one another?
+It's easy to have objects interact with each other when you give them the same properties.  Then you can create conditionals based on these properties and call various methdos when the conditionals are met.  IN this case, all the objects I created had the same posX and posY properties, so it was easy to have them interact based on the values of those properties at any given time.
+
+Did you learn about any new built-in methods you could use in your refactored solution? If so, what were they and how do they work?
+I used the .floor and .random math methods.  The .floor method basically makes sure the value of the input is an integer instead of a float and the random method allows you to create a random number between two given values.
+
+How can you access and manipulate properties of objects?
+You call object properties in JS in a similar way you would call methods on objects in Ruby: by using dot-notation.  If you have nested objects, you simply refer to the given property hierarchically with multiple dots.  You can manipulate the properties using built-in methods, conditional statements, numerical operators or basically any other way you would manipulate an object in Ruby, just with different syntax.
+*/
 //
 //
 //
