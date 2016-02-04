@@ -175,6 +175,11 @@ end
 # Reflection
 =begin
 What concepts did you review in this challenge?
+This was definitely a good review of class definition, class methods, instance variables, attr constructors, and driver code in Ruby.  I've spent a lot of the beginning of this week in JavaScript, so this was a good way to get back into using Ruby.
+
 What is still confusing to you about Ruby?
+Some of the syntax still confuses me.  For example, the driver code on lines 99-101 had us stuck for such a long time until we tried defining a new variable called spoon and setting it equal to a new instance of silverware type spoon.  Before we did that, the .include? method on line 101 would not recognize spoon as a variable even though I thought it would take an object as an argument.  After we got it to work, this makes sense but before that I could not see how our code was wrong at all.
+
 What are you going to study to get more prepared for Phase 1?
+I definitley need to spend more time at the tail end of this week on Ruby review.  I need to review attr constructors, looping in Ruby and the differences in syntax for accessing specific array/hash objects in Ruby vs. JavaScript.  More generally, and I'm sure this will only happen over time, I need to become more comfortable rapidly switching between Ruby and JavaScript.  Right now, it's still sort of painful.
 =end
