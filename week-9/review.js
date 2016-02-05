@@ -23,7 +23,7 @@ I want to be able to print out a nice looking list
 
 
 */
-
+/*
 function groceryList() {};
 
 groceryList.prototype.addItem = function(item, quantity) {
@@ -54,9 +54,50 @@ for (var item in this) {
   }
 }
 }
-
-//refactor goals:
-/*
+*/
 
 
+function GroceryList() {
+  this.list = {};
+}
 
+GroceryList.prototype.addItem = function (item, quantity) {
+  this.list[item] = quantity;
+  console.log(quantity + " of " + item + " has been added.");
+}
+
+GroceryList.prototype.removeItem = function (item) {
+  delete this.list[item];
+  console.log(item + " has been removed from the list.");
+}
+
+GroceryList.prototype.updateItem = function (item, quantity) {
+  if (this.list.hasOwnProperty(item)) {
+    this.list[item] = quantity;
+    console.log("You have added " + quantity + " " + item + "(s) to your list.");
+  } else {
+    throw "You cannot update an item that is not already on your list.";
+  }
+}
+
+GroceryList.prototype.print = function () {
+  console.log("This list contains:");
+  for (var item in this.list) {
+    console.log("- " + this.list[item] + " of " + item);
+  }
+}
+
+GroceryList.prototype.getList = function () {
+  return this.list;
+}
+
+/*Reflection
+
+What concepts did you solidify in working on this challenge? (reviewing the passing of information, objects, constructors, etc.)
+This definitely helped review the passing of information as well the object constructor and using 'this' for generic objects of the same class.
+
+What was the most difficult part of this challenge?
+Probably remembering how to write a for loop correctly that printed each item from the list.
+
+Did an array or object make more sense to use and why?
+An object, because then I could store paired objects within the list object instead of just an item and index number.
